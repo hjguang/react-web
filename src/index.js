@@ -3,12 +3,13 @@ import ReactDOM from 'react-dom';
 import {BrowserRouter} from 'react-router-dom'
 import 'antd/dist/antd.css';
 import MainRouter from "./MainRouter";
+import Main from './admin/main'
 
 import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
   <BrowserRouter>
-    <MainRouter/>
+    <Main/>
   </BrowserRouter>,
   document.getElementById('root')
 );
