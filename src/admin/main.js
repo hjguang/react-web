@@ -12,7 +12,7 @@ import {
     VideoCameraOutlined,
 } from '@ant-design/icons';
 import App from '../App'
-import AdminMenu from '../views/AdminMenu'
+import AdminMenu from '../views/admin/AdminMenu'
 
 
 class Main extends Component {
